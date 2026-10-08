@@ -109,7 +109,7 @@ export const teamData = [
     name: 'Janabi Adhikari',
     title: 'Social Media Manager',
     image: '/team/janabi.jpeg',
-    description: 'I’m a passionate Computer Engineering student, developer, and technology enthusiast with a strong curiosity for software engineering, artificial intelligence, and emerging technologies. I’m a fast learner, creative problem-solver, and someone who genuinely enjoys turning ideas into meaningful digital experiences. I’m exploring how technology can make learning smarter, more accessible, and engaging for students. I have experience in web development, programming, databases, and digital projects, and I’m always eager to learn, experiment, and challenge myself. What sets me apart is my curiosity—I don’t just want to use technology; I want to understand it, build with it, and create something of my own. I’m continuously strengthening my skills, exploring AI, and working toward becoming a highly skilled software engineer capable of turning ambitious ideas into impactful real-world ',
+    description: 'I’m a passionate Computer Engineering student, developer, and technology enthusiast with a strong curiosity for software engineering, artificial intelligence, and emerging technologies. I’m a fast learner, creative problem-solver, and someone who genuinely enjoys turning ideas into meaningful digital experiences. I’m exploring how technology can make learning smarter, more accessible, and engaging for students. I have experience in web development, programming, databases, and digital projects, and I What sets me apart is my curiosity',
   },
 ]
 
