@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import assets from '../assets/assets'
-import ThemeToggleBtn from './themeToggleBtn'
+import ThemeToggleBtn from './ThemeToggleBtn'
 import { Link } from 'react-router-dom'
 
 const Navbar = ({ theme, setTheme }) => {
