@@ -1,15 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+
 import Home from './pages/Home'
 import Services from './pages/Services'
 import OurTeam from './pages/OurTeam'
 import Contact from './pages/Contact'
 
-
 const App = () => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'light'
+  })
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
   return (
     <div
@@ -19,16 +26,19 @@ const App = () => {
           : 'min-h-screen bg-white text-gray-700'
       }
     >
-      <Navbar theme={theme} setTheme={setTheme} />
+      <Navbar
+        theme={theme}
+        setTheme={setTheme}
+      />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/our-team" element={<OurTeam />} />
-        <Route path="/contact" element={<Contact/>} />
-              </Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/our-team' element={<OurTeam />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
 
-       <Footer />
+      <Footer />
     </div>
   )
 }
