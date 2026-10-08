@@ -81,14 +81,14 @@ export const teamData = [
     name: 'Purnima Bhattarai',
     title: 'Founder',
     image: '/team/purnima.jpeg',
-    description: 'I am a curious, observant, and ambitious technology enthusiast with a strong interest in Artificial Intelligence, Machine Learning, and software development. As a founder, I am driven by my desire to help others and create opportunities that I once wished I had myself. I believe in learning together, sharing knowledge, and growing through collaboration rather than working alone. This mindset led me to create Jigyasa Edu—a platform envisioned as a supportive space where students can connect, seek guidance, explore opportunities, and turn their curiosity into action.',
+    description: 'I’m a curious, observant, and ambitious technology enthusiast passionate about AI, Machine Learning, and software development. As a founder, I’m driven by the desire to help others, share knowledge, and create opportunities. This vision led me to build Jigyasa Edu—a supportive platform where students can connect, seek guidance, explore opportunities, and turn curiosity into action.',
   },
 
   {
     name: 'Arish Gautam',
     title: 'CO-Founder',
     image: '/team/arish.JPG',
-    description: 'A CSIT student at Madan Bhandari Memorial College and a passionate full-stack developer with a strong interest in web development, cybersecurity, and emerging technologies. Experienced in building web applications using the MERN and PERN stacks, with hands-on knowledge of JavaScript, React, Node.js, PostgreSQL, and MongoDB. I enjoy developing scalable applications, exploring secure and efficient software solutions, and continuously learning new technologies. My focus is on strengthening my development skills, exploring cybersecurity, and turning ideas into practical and impactful digital solutions.',
+    description: 'I’m a CSIT student at Madan Bhandari Memorial College and a passionate full-stack developer with a strong interest in web development, cybersecurity, and emerging technologies. As a Co-Founder of Jigyasa Edu, I’m working to create a platform where students can connect, learn, seek guidance, and explore opportunities. With experience in the MERN and PERN stacks, I enjoy building scalable applications and turning ideas into practical, impactful digital solutions.',
   },
 
   {
@@ -102,14 +102,14 @@ export const teamData = [
     name: 'Samikshya Gautam',
     title: 'Resource Manager',
     image: '/team/samikshya.jpeg',
-    description: 'A Civil Engineering student and Resource Manager at Jigyasa Edu with a strong interest in technology, engineering, and innovation. With a background in computer and technology-related studies, I enjoy exploring the connection between civil engineering and modern technology. My role at Jigyasa Edu involves managing educational resources, coordinating with the team, and contributing to creating useful learning opportunities. I am focused on continuously learning, developing practical skills, and turning ideas into meaningful projects and solutions.',
+    description: 'I’m a Civil Engineering student and Resource Manager at Jigyasa Edu, with a strong interest in technology, engineering, and innovation. I enjoy exploring the connection between civil engineering and modern technology while continuously developing my skills. At Jigyasa Edu, I manage educational resources, coordinate with the team, and contribute to creating valuable learning opportunities. I’m passionate about learning, building practical skills, and turning ideas into meaningful projects and solutions.',
   },
 
   {
     name: 'Janabi Adhikari',
     title: 'Social Media Manager',
     image: '/team/janabi.jpeg',
-    description: 'I’m a passionate Computer Engineering student, developer, and technology enthusiast with a strong curiosity for software engineering, artificial intelligence, and emerging technologies. I’m a fast learner, creative problem-solver, and someone who genuinely enjoys turning ideas into meaningful digital experiences. I’m exploring how technology can make learning smarter, more accessible, and engaging for students. I have experience in web development, programming, databases, and digital projects, and I What sets me apart is my curiosity',
+    description: 'I’m a passionate Computer Engineering student, developer, and technology enthusiast interested in software engineering, AI, and emerging technologies. I enjoy solving problems, learning new technologies, and turning ideas into meaningful digital experiences. With experience in web development, programming, and databases, I’m focused on building practical solutions and exploring how technology can make learning smarter and more accessible.',
   },
 ]
 

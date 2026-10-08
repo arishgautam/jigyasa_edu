@@ -31,6 +31,7 @@ const OurTeam = () => {
         <div className='max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 
           {teamData.map((person) => (
+
             <div
               key={person.name}
               className='group relative overflow-hidden rounded-3xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl'
@@ -46,8 +47,8 @@ const OurTeam = () => {
                 />
 
 
-                {/* DESCRIPTION POPUP */}
-                <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500'>
+                {/* DESKTOP DESCRIPTION POPUP */}
+                <div className='hidden sm:flex absolute inset-0 items-end bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500'>
 
                   <div className='p-6 text-white translate-y-5 group-hover:translate-y-0 transition-transform duration-500'>
 
@@ -70,8 +71,26 @@ const OurTeam = () => {
               </div>
 
 
-              {/* NORMAL CARD INFO */}
-              <div className='p-5 bg-white dark:bg-gray-900/60'>
+              {/* MOBILE CARD INFO */}
+              <div className='sm:hidden p-5 bg-white dark:bg-gray-900/60'>
+
+                <h3 className='text-lg font-medium'>
+                  {person.name}
+                </h3>
+
+                <p className='text-sm text-[#5044E5] mt-1'>
+                  {person.title}
+                </p>
+
+                <p className='text-sm text-gray-500 dark:text-white/60 leading-6 mt-3'>
+                  {person.description || 'Description coming soon.'}
+                </p>
+
+              </div>
+
+
+              {/* DESKTOP NORMAL CARD INFO */}
+              <div className='hidden sm:block p-5 bg-white dark:bg-gray-900/60'>
 
                 <h3 className='text-lg font-medium'>
                   {person.name}
@@ -84,6 +103,7 @@ const OurTeam = () => {
               </div>
 
             </div>
+
           ))}
 
         </div>
@@ -98,6 +118,7 @@ const OurTeam = () => {
 
           <h2 className='text-3xl sm:text-4xl font-medium'>
             Different Skills.{' '}
+
             <span className='bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent'>
               One Mission.
             </span>
